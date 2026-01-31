@@ -22,7 +22,8 @@
     "https://www.msn.com/en-us/health/medical/a-field-experiment-reveals-the-psychology-behind-the-batman-effect/ar-AA1RDSDz",
     "https://www.sciencedaily.com/releases/2026/01/260118064637.htm",
     "https://phys.org/news/2026-01-pushback-couldnt-derail-criminology.html",
-    "https://www.msn.com/en-us/health/other/feeling-involved-in-decision-making-associated-with-higher-mental-well-being-lower-loneliness-for-women-in-farming/ar-AA1UvVlA"
+    "https://www.msn.com/en-us/health/other/feeling-involved-in-decision-making-associated-with-higher-mental-well-being-lower-loneliness-for-women-in-farming/ar-AA1UvVlA",
+    "https://www.yahoo.com/news/articles/paradox-success-former-idf-chief-154553869.html"
   ],
   "headlines": [
     {
@@ -159,6 +160,12 @@
       "url": "https://www.msn.com/en-us/health/other/feeling-involved-in-decision-making-associated-with-higher-mental-well-being-lower-loneliness-for-women-in-farming/ar-AA1UvVlA",
       "title": "Feeling involved in decision-making associated with higher mental well-being, lower loneliness for women in farming",
       "topic": "rural mental health",
+      "date": "2026-01-31"
+    },
+    {
+      "url": "https://www.yahoo.com/news/articles/paradox-success-former-idf-chief-154553869.html",
+      "title": "'Paradox of success': Former IDF chief explains interception failure at Ramon",
+      "topic": "military strategy",
       "date": "2026-01-31"
     }
   ]
