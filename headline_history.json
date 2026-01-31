@@ -21,7 +21,8 @@
     "https://www.mmm-online.com/home/channel/fda-black-box-warning-antidepressants-consequences/",
     "https://www.msn.com/en-us/health/medical/a-field-experiment-reveals-the-psychology-behind-the-batman-effect/ar-AA1RDSDz",
     "https://www.sciencedaily.com/releases/2026/01/260118064637.htm",
-    "https://phys.org/news/2026-01-pushback-couldnt-derail-criminology.html"
+    "https://phys.org/news/2026-01-pushback-couldnt-derail-criminology.html",
+    "https://www.msn.com/en-us/health/other/feeling-involved-in-decision-making-associated-with-higher-mental-well-being-lower-loneliness-for-women-in-farming/ar-AA1UvVlA"
   ],
   "headlines": [
     {
@@ -152,6 +153,12 @@
       "url": "https://phys.org/news/2026-01-pushback-couldnt-derail-criminology.html",
       "title": "Pushback couldn't derail this researcher's work in criminology",
       "topic": "criminology research",
+      "date": "2026-01-31"
+    },
+    {
+      "url": "https://www.msn.com/en-us/health/other/feeling-involved-in-decision-making-associated-with-higher-mental-well-being-lower-loneliness-for-women-in-farming/ar-AA1UvVlA",
+      "title": "Feeling involved in decision-making associated with higher mental well-being, lower loneliness for women in farming",
+      "topic": "rural mental health",
       "date": "2026-01-31"
     }
   ]
