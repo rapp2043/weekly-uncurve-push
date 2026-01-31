@@ -494,17 +494,44 @@ def publish_to_webhook(html_content: str, subject: str, metadata: dict) -> bool:
         }
     }
     
-    # Check for webhook authentication credentials
+    # #region agent log - H1: Check if credentials are loaded
     webhook_user = os.getenv("MAKE_WEBHOOK_USER")
     webhook_password = os.getenv("MAKE_WEBHOOK_PASSWORD")
+    print(f"[DEBUG-H1] MAKE_WEBHOOK_USER set: {bool(webhook_user)}, length: {len(webhook_user) if webhook_user else 0}")
+    print(f"[DEBUG-H1] MAKE_WEBHOOK_PASSWORD set: {bool(webhook_password)}, length: {len(webhook_password) if webhook_password else 0}")
+    # #endregion
+    
+    # #region agent log - H3: Check for whitespace/special chars
+    if webhook_user:
+        print(f"[DEBUG-H3] User has leading/trailing whitespace: {webhook_user != webhook_user.strip()}")
+    if webhook_password:
+        print(f"[DEBUG-H3] Password has leading/trailing whitespace: {webhook_password != webhook_password.strip()}")
+    # #endregion
     
     auth = None
+    headers = {"Content-Type": "application/json"}
+    
     if webhook_user and webhook_password:
+        # #region agent log - H2: Try multiple auth methods
+        print("[DEBUG-H2] Attempting Basic Authentication first...")
+        # #endregion
         auth = (webhook_user, webhook_password)
-        print("[WEBHOOK] Using Basic Authentication")
     
     try:
-        response = requests.post(MAKE_WEBHOOK_URL, json=payload, auth=auth, timeout=60)
+        # #region agent log - H2: Log request details
+        print(f"[DEBUG-H2] Making POST request to webhook URL (length: {len(MAKE_WEBHOOK_URL)})")
+        print(f"[DEBUG-H2] Auth tuple provided: {auth is not None}")
+        # #endregion
+        
+        response = requests.post(MAKE_WEBHOOK_URL, json=payload, auth=auth, headers=headers, timeout=60)
+        
+        # #region agent log - Log response details
+        print(f"[DEBUG] Response status: {response.status_code}")
+        print(f"[DEBUG] Response headers: {dict(response.headers)}")
+        if response.status_code != 200:
+            print(f"[DEBUG] Response body: {response.text[:500]}")
+        # #endregion
+        
         response.raise_for_status()
         print(f"[WEBHOOK] Successfully sent to Make.com (status: {response.status_code})")
         return True
@@ -513,6 +540,31 @@ def publish_to_webhook(html_content: str, subject: str, metadata: dict) -> bool:
         return False
     except requests.exceptions.RequestException as e:
         print(f"[WEBHOOK] ERROR: {e}")
+        # #region agent log - H2/H4: Try alternative auth methods on failure
+        if "401" in str(e) and webhook_user:
+            print("[DEBUG-H2] Basic Auth failed. Trying X-API-Key header...")
+            try:
+                headers["X-API-Key"] = webhook_user
+                response = requests.post(MAKE_WEBHOOK_URL, json=payload, headers=headers, timeout=60)
+                print(f"[DEBUG-H2] X-API-Key attempt status: {response.status_code}")
+                if response.status_code == 200:
+                    print("[WEBHOOK] SUCCESS with X-API-Key header!")
+                    return True
+            except Exception as e2:
+                print(f"[DEBUG-H2] X-API-Key attempt failed: {e2}")
+            
+            print("[DEBUG-H4] Trying Authorization: Bearer header...")
+            try:
+                headers.pop("X-API-Key", None)
+                headers["Authorization"] = f"Bearer {webhook_user}"
+                response = requests.post(MAKE_WEBHOOK_URL, json=payload, headers=headers, timeout=60)
+                print(f"[DEBUG-H4] Bearer token attempt status: {response.status_code}")
+                if response.status_code == 200:
+                    print("[WEBHOOK] SUCCESS with Bearer token!")
+                    return True
+            except Exception as e3:
+                print(f"[DEBUG-H4] Bearer token attempt failed: {e3}")
+        # #endregion
         return False
 
 
