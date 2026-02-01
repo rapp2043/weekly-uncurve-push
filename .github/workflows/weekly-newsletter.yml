@@ -1,9 +1,9 @@
-name: Daily Newsletter
+name: Weekly Newsletter
 
 on:
   schedule:
-    # Run at 8:00 AM EST (13:00 UTC) every day
-    - cron: '0 13 * * *'
+    # Run at 8:00 AM EST (13:00 UTC) every Sunday
+    - cron: '0 13 * * 0'
   workflow_dispatch:  # Manual trigger for testing
 
 permissions:
@@ -38,5 +38,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add drafts/ headline_history.json
-          git commit -m "Published newsletter $(date +%Y-%m-%d)" || exit 0
+          git commit -m "Published weekly newsletter $(date +%Y-%m-%d)" || exit 0
           git push

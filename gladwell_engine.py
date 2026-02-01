@@ -1,10 +1,10 @@
 """
-Un:Curve Newsletter Engine
+Un:Curve Weekly Newsletter Engine
 Generates Malcolm Gladwell-style newsletters using DeepSeek Reasoner API.
 Publishes to Make.com webhook for Brevo email distribution.
 
 Usage:
-    python gladwell_engine.py    # Generate newsletter and publish to webhook
+    python gladwell_engine.py    # Generate weekly newsletter and publish to webhook
 """
 
 import os
@@ -251,23 +251,13 @@ Respond ONLY with valid JSON."""
 
 
 def get_newsletter_config() -> dict:
-    """Get newsletter configuration based on day of week."""
-    day = datetime.now().weekday()  # 0=Monday, 6=Sunday
-    
-    if day in [5, 6]:  # Saturday or Sunday
-        return {
-            "type": "Weekend Deep Dive",
-            "length": "1200-1500 words",
-            "templates": "1, 2, or 3 (prefer complex braids)",
-            "style": "Take your time. Build the narrative slowly. Use more historical parallels."
-        }
-    else:  # Monday-Friday
-        return {
-            "type": "Daily",
-            "length": "800-1200 words",
-            "templates": "1, 3, 4, or 5",
-            "style": "Focused and punchy. Get to the insight quickly."
-        }
+    """Get newsletter configuration for weekly edition."""
+    return {
+        "type": "Weekly Deep Dive",
+        "length": "1200-1500 words",
+        "templates": "1, 2, or 3 (prefer complex braids)",
+        "style": "Take your time. Build the narrative slowly. Use more historical parallels."
+    }
 
 
 def writer_generate(client: OpenAI, system_prompt: str, selection: dict) -> str:
@@ -448,21 +438,11 @@ def build_html_email(newsletter: str) -> tuple[str, str]:
         ref_lines = [line.strip() for line in refs.split('\n') if line.strip() and line.strip() != '-']
         references_html = "<ul>" + "".join([f"<li>{line.lstrip('- ')}</li>" for line in ref_lines]) + "</ul>"
     
-    # Generate personal note based on day of week
-    day = datetime.now().weekday()
-    if day in [5, 6]:  # Weekend
-        personal_note = """
-        <p>I hope you're having a wonderful weekend. Take some time today to reflect on how often the "obvious" answer is actually the wrong one. If you enjoyed this deep dive, I'd love to hear from you.</p>
-        <p>What's one thing you're rethinking after reading this? Please give me feedback on X <strong>@anthonycclemons</strong>.</p>
-        <p>Have a wonderful weekend, all.</p>
-        <p>Much love to you and yours,</p>
-        <p>Anthony</p>
-        """
-    else:  # Weekday
-        personal_note = """
-        <p>I hope this edition of <strong>Un:Curve</strong> helps you see the world a bit differently today. As always, I'd love to hear your thoughts. Which part of today's story challenged your assumptions the most? What would you like to see more of?</p>
-        <p>Please let me know on X. Just send a tweet to <strong>@anthonycclemons</strong> and I'll be sure to find it.</p>
-        <p>Keep thriving,</p>
+    # Personal note for weekly edition
+    personal_note = """
+        <p>I hope this week's edition of <strong>Un:Curve</strong> gives you something to chew on. Take some time to reflect on how often the "obvious" answer is actually the wrong one.</p>
+        <p>What's one thing you're rethinking after reading this? I'd love to hear from you on X <strong>@anthonycclemons</strong>.</p>
+        <p>Have a wonderful week ahead,</p>
         <p>Anthony</p>
         """
 

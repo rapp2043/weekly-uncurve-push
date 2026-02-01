@@ -1,6 +1,6 @@
 # Un:Curve Newsletter Engine
 
-Automated daily newsletter generator that creates Malcolm Gladwell-style content using AI, then publishes to Make.com for distribution via Brevo.
+Automated weekly newsletter generator that creates Malcolm Gladwell-style content using AI, then publishes to Make.com for distribution via Brevo.
 
 ## How It Works
 
@@ -11,17 +11,16 @@ Automated daily newsletter generator that creates Malcolm Gladwell-style content
 
 ## Automated Schedule
 
-The GitHub Action runs automatically at **6 AM EST (11:00 UTC) every day**.
+The GitHub Action runs automatically at **8:00 AM EST (13:00 UTC) every Sunday**.
 
-- **Weekdays (Mon-Fri)**: Daily edition, 800-1200 words, focused and punchy
-- **Weekends (Sat-Sun)**: Deep Dive edition, 1200-1500 words, slower narrative with historical parallels
+Each weekly edition is a deep dive: 1200-1500 words with rich narrative and historical parallels.
 
 ## Manual Trigger
 
 You can manually trigger the workflow:
 
 1. Go to the **Actions** tab in your GitHub repository
-2. Select **Daily Newsletter**
+2. Select **Weekly Newsletter**
 3. Click **Run workflow**
 
 ## Setup
@@ -68,7 +67,7 @@ https://raw.githubusercontent.com/USERNAME/REPO/main/assets/signature.png
 ```
 ├── .github/
 │   └── workflows/
-│       └── daily-newsletter.yml    # GitHub Actions workflow
+│       └── weekly-newsletter.yml   # GitHub Actions workflow
 ├── assets/
 │   ├── logo.png                    # Newsletter logo
 │   └── signature.png               # Author signature
