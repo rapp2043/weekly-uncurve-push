@@ -26,7 +26,8 @@
     "https://www.yahoo.com/news/articles/paradox-success-former-idf-chief-154553869.html",
     "https://www.sciencedaily.com/releases/2026/01/260114084113.htm",
     "https://www.msn.com/en-za/society-culture-and-history/social-issues/checkout-charity-requests-often-backfire-leaving-shoppers-feeling-guilty-new-study/ar-AA1SyubP",
-    "https://scitechdaily.com/compulsive-behavior-may-not-be-a-bad-habit-after-all-new-study-finds/"
+    "https://scitechdaily.com/compulsive-behavior-may-not-be-a-bad-habit-after-all-new-study-finds/",
+    "https://medicalxpress.com/news/2025-03-syndrome-case-alzheimer-assumptions-unexpected.html"
   ],
   "headlines": [
     {
@@ -188,6 +189,12 @@
       "title": "Compulsive Behavior May Not Be a 'Bad Habit' After All, New Study Finds",
       "topic": "compulsive behavior research",
       "date": "2026-01-31"
+    },
+    {
+      "url": "https://medicalxpress.com/news/2025-03-syndrome-case-alzheimer-assumptions-unexpected.html",
+      "title": "Down syndrome case challenges Alzheimer's assumptions with unexpected cognitive stability",
+      "topic": "medical research",
+      "date": "2026-02-01"
     }
   ]
 }
