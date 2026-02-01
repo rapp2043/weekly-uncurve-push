@@ -254,9 +254,9 @@ def get_newsletter_config() -> dict:
     """Get newsletter configuration for weekly edition."""
     return {
         "type": "Weekly Deep Dive",
-        "length": "1200-1500 words",
+        "length": "1500-2000 words",
         "templates": "1, 2, or 3 (prefer complex braids)",
-        "style": "Take your time. Build the narrative slowly. Use more historical parallels."
+        "style": "This is the flagship weekly edition. Take your time. Build a layered narrative with multiple interwoven anecdotes. Use rich historical parallels and unexpected connections. Let the reader sit with ideas before pivoting. Include more research depth and nuance than a quick read would allow."
     }
 
 

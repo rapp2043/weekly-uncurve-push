@@ -13,7 +13,7 @@ Automated weekly newsletter generator that creates Malcolm Gladwell-style conten
 
 The GitHub Action runs automatically at **8:00 AM EST (13:00 UTC) every Sunday**.
 
-Each weekly edition is a deep dive: 1200-1500 words with rich narrative and historical parallels.
+Each weekly edition is a flagship deep dive: 1500-2000 words with layered narratives, interwoven anecdotes, and rich historical parallels.
 
 ## Manual Trigger
 
