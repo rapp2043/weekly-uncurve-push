@@ -29,7 +29,8 @@
     "https://scitechdaily.com/compulsive-behavior-may-not-be-a-bad-habit-after-all-new-study-finds/",
     "https://medicalxpress.com/news/2025-03-syndrome-case-alzheimer-assumptions-unexpected.html",
     "https://www.wbez.org/2024/09/18/research-finds-shotspotter-slows-police-responses-to-911-calls",
-    "https://www.msn.com/en-us/weather/topstories/cfc-replacements-behind-vast-quantities-of-global-forever-chemical-pollution-research-reveals/ar-AA1VEJzx"
+    "https://www.msn.com/en-us/weather/topstories/cfc-replacements-behind-vast-quantities-of-global-forever-chemical-pollution-research-reveals/ar-AA1VEJzx",
+    "https://www.msn.com/en-us/news/technology/psychology-study-reveals-how-gratitude-can-backfire-on-your-social-standing/ar-AA1VnGC9"
   ],
   "headlines": [
     {
@@ -209,6 +210,12 @@
       "title": "CFC replacements behind vast quantities of global 'forever chemical' pollution, research reveals",
       "topic": "environmental science",
       "date": "2026-02-08"
+    },
+    {
+      "url": "https://www.msn.com/en-us/news/technology/psychology-study-reveals-how-gratitude-can-backfire-on-your-social-standing/ar-AA1VnGC9",
+      "title": "Psychology study reveals how gratitude can backfire on your social standing",
+      "topic": "social psychology",
+      "date": "2026-02-15"
     }
   ]
 }
