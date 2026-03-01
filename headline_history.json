@@ -31,7 +31,8 @@
     "https://www.wbez.org/2024/09/18/research-finds-shotspotter-slows-police-responses-to-911-calls",
     "https://www.msn.com/en-us/weather/topstories/cfc-replacements-behind-vast-quantities-of-global-forever-chemical-pollution-research-reveals/ar-AA1VEJzx",
     "https://www.msn.com/en-us/news/technology/psychology-study-reveals-how-gratitude-can-backfire-on-your-social-standing/ar-AA1VnGC9",
-    "https://www.colorado.edu/asmagazine/2026/01/28/research-sheds-light-unintended-consequences-money-laundering-regulations"
+    "https://www.colorado.edu/asmagazine/2026/01/28/research-sheds-light-unintended-consequences-money-laundering-regulations",
+    "https://www.thenews.com.pk/latest/1393533-mars-missing-water-mystery-takes-a-surprising-turn-as-new-study-finds-regional-dust-storms-trigger-massive-water-loss-into-space"
   ],
   "headlines": [
     {
@@ -223,6 +224,12 @@
       "title": "Research sheds light on unintended consequences of money laundering regulations",
       "topic": "economic regulation",
       "date": "2026-02-22"
+    },
+    {
+      "url": "https://www.thenews.com.pk/latest/1393533-mars-missing-water-mystery-takes-a-surprising-turn-as-new-study-finds-regional-dust-storms-trigger-massive-water-loss-into-space",
+      "title": "'Mars' missing water mystery takes a surprising turn as new study finds regional dust storms trigger massive water loss into space",
+      "topic": "planetary science",
+      "date": "2026-03-01"
     }
   ]
 }
