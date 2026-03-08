@@ -32,7 +32,8 @@
     "https://www.msn.com/en-us/weather/topstories/cfc-replacements-behind-vast-quantities-of-global-forever-chemical-pollution-research-reveals/ar-AA1VEJzx",
     "https://www.msn.com/en-us/news/technology/psychology-study-reveals-how-gratitude-can-backfire-on-your-social-standing/ar-AA1VnGC9",
     "https://www.colorado.edu/asmagazine/2026/01/28/research-sheds-light-unintended-consequences-money-laundering-regulations",
-    "https://www.thenews.com.pk/latest/1393533-mars-missing-water-mystery-takes-a-surprising-turn-as-new-study-finds-regional-dust-storms-trigger-massive-water-loss-into-space"
+    "https://www.thenews.com.pk/latest/1393533-mars-missing-water-mystery-takes-a-surprising-turn-as-new-study-finds-regional-dust-storms-trigger-massive-water-loss-into-space",
+    "https://theconversation.com/understanding-ai-outputs-study-shows-pro-western-cultural-bias-in-the-way-ai-decisions-are-explained-227262"
   ],
   "headlines": [
     {
@@ -230,6 +231,12 @@
       "title": "'Mars' missing water mystery takes a surprising turn as new study finds regional dust storms trigger massive water loss into space",
       "topic": "planetary science",
       "date": "2026-03-01"
+    },
+    {
+      "url": "https://theconversation.com/understanding-ai-outputs-study-shows-pro-western-cultural-bias-in-the-way-ai-decisions-are-explained-227262",
+      "title": "Understanding AI outputs: study shows pro\u2011western cultural bias in the way AI decisions are explained",
+      "topic": "AI ethics",
+      "date": "2026-03-08"
     }
   ]
 }
