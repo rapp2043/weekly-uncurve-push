@@ -34,7 +34,8 @@
     "https://www.colorado.edu/asmagazine/2026/01/28/research-sheds-light-unintended-consequences-money-laundering-regulations",
     "https://www.thenews.com.pk/latest/1393533-mars-missing-water-mystery-takes-a-surprising-turn-as-new-study-finds-regional-dust-storms-trigger-massive-water-loss-into-space",
     "https://theconversation.com/understanding-ai-outputs-study-shows-pro-western-cultural-bias-in-the-way-ai-decisions-are-explained-227262",
-    "https://phys.org/news/2026-03-customer-backfire.html"
+    "https://phys.org/news/2026-03-customer-backfire.html",
+    "https://grist.org/politics/why-forcing-people-to-go-green-can-backfire/"
   ],
   "headlines": [
     {
@@ -244,6 +245,12 @@
       "title": "The customer might always be right, but apologies actually backfire in customer service",
       "topic": "consumer behavior",
       "date": "2026-03-15"
+    },
+    {
+      "url": "https://grist.org/politics/why-forcing-people-to-go-green-can-backfire/",
+      "title": "Why forcing people to go green can backfire",
+      "topic": "environmental policy",
+      "date": "2026-03-22"
     }
   ]
 }
