@@ -35,7 +35,8 @@
     "https://www.thenews.com.pk/latest/1393533-mars-missing-water-mystery-takes-a-surprising-turn-as-new-study-finds-regional-dust-storms-trigger-massive-water-loss-into-space",
     "https://theconversation.com/understanding-ai-outputs-study-shows-pro-western-cultural-bias-in-the-way-ai-decisions-are-explained-227262",
     "https://phys.org/news/2026-03-customer-backfire.html",
-    "https://grist.org/politics/why-forcing-people-to-go-green-can-backfire/"
+    "https://grist.org/politics/why-forcing-people-to-go-green-can-backfire/",
+    "https://www.philanthropy.com/news/setting-ambitious-goals-for-visiting-donors-can-backfire-study-of-college-fund-raisers-finds/"
   ],
   "headlines": [
     {
@@ -251,6 +252,12 @@
       "title": "Why forcing people to go green can backfire",
       "topic": "environmental policy",
       "date": "2026-03-22"
+    },
+    {
+      "url": "https://www.philanthropy.com/news/setting-ambitious-goals-for-visiting-donors-can-backfire-study-of-college-fund-raisers-finds/",
+      "title": "Setting Ambitious Goals for Visiting Donors Can Backfire, Study of College Fund Raisers Finds",
+      "topic": "philanthropy fundraising",
+      "date": "2026-03-29"
     }
   ]
 }
