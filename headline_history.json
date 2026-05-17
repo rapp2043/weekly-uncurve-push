@@ -38,7 +38,8 @@
     "https://grist.org/politics/why-forcing-people-to-go-green-can-backfire/",
     "https://www.philanthropy.com/news/setting-ambitious-goals-for-visiting-donors-can-backfire-study-of-college-fund-raisers-finds/",
     "https://www.msn.com/en-us/society-culture-and-history/cultural-events/unexpected-characteristic-is-driving-transition-in-human-s-evolution-study/ar-AA1N5VD6",
-    "https://www.middletownpress.com/news/article/my-research-on-wheelchair-basketball-challenges-22081138.php"
+    "https://www.middletownpress.com/news/article/my-research-on-wheelchair-basketball-challenges-22081138.php",
+    "https://www.msn.com/en-gb/health/other/study-changes-what-we-know-about-how-quickly-to-lose-weight/ar-AA23dFQs"
   ],
   "headlines": [
     {
@@ -272,6 +273,12 @@
       "title": "My research on wheelchair basketball challenges one of the biggest assumptions about sex differences in sports",
       "topic": "sports science",
       "date": "2026-04-26"
+    },
+    {
+      "url": "https://www.msn.com/en-gb/health/other/study-changes-what-we-know-about-how-quickly-to-lose-weight/ar-AA23dFQs",
+      "title": "Study changes what we know about how quickly to lose weight",
+      "topic": "weight loss research",
+      "date": "2026-05-17"
     }
   ]
 }
