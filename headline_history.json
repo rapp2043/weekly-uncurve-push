@@ -40,7 +40,8 @@
     "https://www.msn.com/en-us/society-culture-and-history/cultural-events/unexpected-characteristic-is-driving-transition-in-human-s-evolution-study/ar-AA1N5VD6",
     "https://www.middletownpress.com/news/article/my-research-on-wheelchair-basketball-challenges-22081138.php",
     "https://www.msn.com/en-gb/health/other/study-changes-what-we-know-about-how-quickly-to-lose-weight/ar-AA23dFQs",
-    "https://www.msn.com/en-us/health/other/unintended-consequences-graphic-anti-smoking-ads-may-nudge-people-toward-vaping/ar-AA24bERG"
+    "https://www.msn.com/en-us/health/other/unintended-consequences-graphic-anti-smoking-ads-may-nudge-people-toward-vaping/ar-AA24bERG",
+    "https://www.msn.com/en-us/money/personalfinance/unintended-consequences-developers-say-la-s-so-called-mansion-tax-is-actually-making-the-housing-shortage-worse/ar-AA265hCH"
   ],
   "headlines": [
     {
@@ -286,6 +287,12 @@
       "title": "Unintended consequences: Graphic anti-smoking ads may nudge people toward vaping",
       "topic": "public health policy",
       "date": "2026-05-31"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/personalfinance/unintended-consequences-developers-say-la-s-so-called-mansion-tax-is-actually-making-the-housing-shortage-worse/ar-AA265hCH",
+      "title": "'Unintended consequences': Developers say LA's so-called mansion tax is actually making the housing shortage worse",
+      "topic": "urban housing policy",
+      "date": "2026-06-21"
     }
   ]
 }
