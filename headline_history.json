@@ -43,7 +43,8 @@
     "https://www.msn.com/en-us/health/other/unintended-consequences-graphic-anti-smoking-ads-may-nudge-people-toward-vaping/ar-AA24bERG",
     "https://www.msn.com/en-us/money/personalfinance/unintended-consequences-developers-say-la-s-so-called-mansion-tax-is-actually-making-the-housing-shortage-worse/ar-AA265hCH",
     "https://www.eurekalert.org/news-releases/1105760",
-    "https://www.tradersmagazine.com/departments/brokerage/unintended-consequences-shrinking-sell-side-research/"
+    "https://www.tradersmagazine.com/departments/brokerage/unintended-consequences-shrinking-sell-side-research/",
+    "https://phys.org/news/2025-02-lack-global-diversity-criminology.html"
   ],
   "headlines": [
     {
@@ -307,6 +308,12 @@
       "title": "Unintended Consequences: Shrinking Sell-Side Research",
       "topic": "financial regulation",
       "date": "2026-08-09"
+    },
+    {
+      "url": "https://phys.org/news/2025-02-lack-global-diversity-criminology.html",
+      "title": "Research indicates a lack of global diversity in criminology education",
+      "topic": "criminology education",
+      "date": "2026-08-16"
     }
   ]
 }
