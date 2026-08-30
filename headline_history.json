@@ -44,7 +44,8 @@
     "https://www.msn.com/en-us/money/personalfinance/unintended-consequences-developers-say-la-s-so-called-mansion-tax-is-actually-making-the-housing-shortage-worse/ar-AA265hCH",
     "https://www.eurekalert.org/news-releases/1105760",
     "https://www.tradersmagazine.com/departments/brokerage/unintended-consequences-shrinking-sell-side-research/",
-    "https://phys.org/news/2025-02-lack-global-diversity-criminology.html"
+    "https://phys.org/news/2025-02-lack-global-diversity-criminology.html",
+    "https://phys.org/news/2026-08-assumptions-online-success.html"
   ],
   "headlines": [
     {
@@ -314,6 +315,12 @@
       "title": "Research indicates a lack of global diversity in criminology education",
       "topic": "criminology education",
       "date": "2026-08-16"
+    },
+    {
+      "url": "https://phys.org/news/2026-08-assumptions-online-success.html",
+      "title": "Research challenges assumptions about online education success",
+      "topic": "online education",
+      "date": "2026-08-30"
     }
   ]
 }
