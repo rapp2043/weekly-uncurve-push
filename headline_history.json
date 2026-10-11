@@ -45,7 +45,8 @@
     "https://www.eurekalert.org/news-releases/1105760",
     "https://www.tradersmagazine.com/departments/brokerage/unintended-consequences-shrinking-sell-side-research/",
     "https://phys.org/news/2025-02-lack-global-diversity-criminology.html",
-    "https://phys.org/news/2026-08-assumptions-online-success.html"
+    "https://phys.org/news/2026-08-assumptions-online-success.html",
+    "https://www.techtarget.com/patientengagement/feature/What-is-the-role-of-behavioral-economics-in-healthcare"
   ],
   "headlines": [
     {
@@ -321,6 +322,12 @@
       "title": "Research challenges assumptions about online education success",
       "topic": "online education",
       "date": "2026-08-30"
+    },
+    {
+      "url": "https://www.techtarget.com/patientengagement/feature/What-is-the-role-of-behavioral-economics-in-healthcare",
+      "title": "What is the role of behavioral economics in healthcare?",
+      "topic": "healthcare",
+      "date": "2026-10-11"
     }
   ]
 }
