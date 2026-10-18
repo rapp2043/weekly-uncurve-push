@@ -46,7 +46,8 @@
     "https://www.tradersmagazine.com/departments/brokerage/unintended-consequences-shrinking-sell-side-research/",
     "https://phys.org/news/2025-02-lack-global-diversity-criminology.html",
     "https://phys.org/news/2026-08-assumptions-online-success.html",
-    "https://www.techtarget.com/patientengagement/feature/What-is-the-role-of-behavioral-economics-in-healthcare"
+    "https://www.techtarget.com/patientengagement/feature/What-is-the-role-of-behavioral-economics-in-healthcare",
+    null
   ],
   "headlines": [
     {
@@ -328,6 +329,12 @@
       "title": "What is the role of behavioral economics in healthcare?",
       "topic": "healthcare",
       "date": "2026-10-11"
+    },
+    {
+      "url": null,
+      "title": null,
+      "topic": null,
+      "date": "2026-10-18"
     }
   ]
 }
